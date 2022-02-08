@@ -1,0 +1,194 @@
+.navbar-light .navbar-nav .nav-link {
+    color: #ffff;
+    margin: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: #0d6efd;
+    border: #636363;
+}
+
+.form-control{
+    height: 40px;
+    width: 450px;
+    margin-left: 20px;
+}
+
+.btn-outline-success {
+    color: #0820f7;
+    border-color: #636363;
+    background-color: #0056d2;
+    width: 40px;
+    height: 40px;
+    margin-left: -10px
+    
+}   
+img, svg {
+    vertical-align: middle;
+}
+
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+    margin-top: 10px;
+}
+
+.bread{
+    padding-top:40px;
+}
+.grad{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#012e61+0,024794+100 */
+background: #012e61; /* Old browsers */
+background: -moz-linear-gradient(left,  #012e61 0%, #024794 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #012e61 0%,#024794 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #012e61 0%,#024794 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#012e61', endColorstr='#024794',GradientType=1 ); /* IE6-9 */
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    float: left;
+    padding-right: 0.5rem;
+    color: #ffffff;
+    content: var(--bs-breadcrumb-divider, "/") /* rtl: var(--bs-breadcrumb-divider, "/") */;
+}
+
+.breadPart{
+    color: white;
+    text-decoration: none;
+}
+.btn-primary-1{
+    color: rgb(1, 135, 252);
+}
+
+.breadPart:hover{
+text-decoration: underline;
+color: white;
+}
+
+.link{
+    color: white; 
+    text-decoration: none;
+    padding-left: 0%;
+    font-weight: bold;
+}
+
+.link:hover{
+text-decoration: underline;
+color: white;
+}
+
+.linkUnderLine{
+    color: white; 
+    text-decoration: none;
+    padding-left: 0%;
+    font-weight: bold;
+}
+
+.linkUnderLine:hover{
+text-decoration: underline;
+color: white;
+}
+
+.stat{
+    padding-top: 0%;
+    color: white; 
+    text-decoration: none;
+    padding-left: 0%;
+}
+
+.stat:hover{
+    color: white;
+}
+.linkUnderLine:hover{
+    text-decoration:underline ;
+    color: white;
+}
+
+.link:hover{
+    text-decoration:none ;
+    color: white;
+}
+
+.round{
+    border-radius: 100px;
+}
+.white{
+    color: white;
+}
+
+.otstup1{
+    padding-top: 30px;
+}
+
+.btn-warning {
+    color: #000;
+    background-color: #ffcb05;
+    border-color: #ffcb05;
+}
+
+.sticky{
+    position: sticky;
+    top:0;
+}
+
+.footerStyle{
+    color: black;
+    text-decoration: none;
+    font-size:105%;
+}
+
+.footerStyle:hover{
+    text-decoration: underline;
+}
+
+hr {
+    margin: 0%;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 0.25;
+}
+
+.spec{
+    text-decoration: none;
+}
+.spec:hover{
+text-decoration: underline;
+}  
+
+.charles{
+    color: #373a3c;
+    font-size: 120%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.charles:hover{
+    text-decoration: underline;
+}
+
+.charles2{
+    color: black;
+    text-decoration: none;
+}
+.charles2:hover{
+    text-decoration: none;
+    color: black;
+}
+.charles3{
+    font-size: 70%;
+    color: #936d48;
+    text-decoration: none;
+}
+.charles3:hover{
+    color: #936d48;
+    text-decoration: none;
+}
+
+
+.carousel-control-next {
+    padding-left: 150px ;
+}
+.carousel-control-prev {
+    padding-right: 150px;
+}
